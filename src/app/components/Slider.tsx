@@ -97,18 +97,18 @@ const Slider = () => {
 				<div className="flex items-center gap-2 ml-auto">
 					<button
 						onClick={() => setCurrentSlideIndex(0)}
-						className={`rounded-[100vh] h-2 w-2 ${currentSlideIndex == 0 ? "bg-black" : "bg-[#d8d8d8]"} `}
+						className={`rounded-[100vh] h-2 w-2 ${currentSlideIndex == 0 ? "bg-black dark:bg-white" : "bg-[#d8d8d8] dark:bg-[#171717]"} `}
 					></button>
 					<button
 						onClick={() => setCurrentSlideIndex(1)}
-						className={`rounded-[100vh] h-2 w-2 ${currentSlideIndex == 1 ? "bg-black" : "bg-[#d8d8d8]"} `}
+						className={`rounded-[100vh] h-2 w-2 ${currentSlideIndex == 1 ? "bg-black dark:bg-white" : "bg-[#d8d8d8] dark:bg-[#171717]"} `}
 					></button>
-					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8]"></button>
-					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8]"></button>
-					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8]"></button>
-					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8]"></button>
-					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8]"></button>
-					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8]"></button>
+					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8] dark:bg-[#171717]"></button>
+					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8] dark:bg-[#171717]"></button>
+					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8] dark:bg-[#171717]"></button>
+					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8] dark:bg-[#171717]"></button>
+					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8] dark:bg-[#171717]"></button>
+					<button className="rounded-[100vh] h-2 w-2 bg-[#d8d8d8] dark:bg-[#171717]"></button>
 				</div>
 
 				<div
@@ -117,13 +117,13 @@ const Slider = () => {
 				>
 					<button
 						onClick={goToPrevSlide}
-						className="bg-[#d8d8d8] w-4 h-4 rounded-full grid place-content-center"
+						className="bg-[#d8d8d8] dark:bg-[#171717] w-4 h-4 rounded-full grid place-content-center"
 					>
 						<CaretLeft />
 					</button>
 					<button
 						onClick={goToNextSlide}
-						className="bg-[#d8d8d8] w-4 h-4 rounded-full grid place-content-center"
+						className="bg-[#d8d8d8] dark:bg-[#171717] w-4 h-4 rounded-full grid place-content-center"
 					>
 						<CaretRight />
 					</button>
